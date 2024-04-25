@@ -1,0 +1,51 @@
+input:focus {
+    border-color: pink;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+
+input::placeholder {
+    color: rgba(250, 240, 240, 0.486);
+    text-align: center;
+    font-family: Verdana;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.zoom {
+    transition: 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.section {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.sectionText {
+    padding-top: 50px;
+    color: white;
+    font-family: Verdana;
+    letter-spacing: 2px;
+
+
+}
+
+.square-container {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.square-container img {
+    width: 100%;
+    /* Set the width of the image to 100% of its container */
+    object-fit: cover;
+    /* Cover the entire container with the image, maintaining aspect ratio */
+}
